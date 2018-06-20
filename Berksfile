@@ -1,3 +1,4 @@
-source "https://supermarket.chef.io"
+source 'https://supermarket.chef.io'
 
-metadata
+cookbook 'custom_apache', git: 'https://github.com/markachus/custom_apache'
+
