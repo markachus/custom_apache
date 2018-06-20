@@ -10,7 +10,8 @@
 #################################################
 
 # Load from node attributes some variables we'll need.
-site_name = node['site']['name']
+site_name = 'My_site'
+#node['site']['name']
 content_owner = node['site']['content']['owner']
 content_group = node['site']['content']['group']
 
